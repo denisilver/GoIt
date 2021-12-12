@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>СПИСКИ ТАБЛИЦЫ</title>
 </head>
 <body>
     <a href="index.html">ССЫЛКА НА СПИСКИ</a>
+    <a href="index3.html">Формы</a>
+    <a href="index4.html">4 страница</a>
 
     <h3>НАВИГАЦИЯ со ссылками</h3>
     <nav>
@@ -18,5 +20,59 @@
         <li><a href="12">12</a></li>
         <a href="12">12</a>
     </nav>
+
+    <h3 style="margin-left: 40%;">ТАБЛИЦЫ</h3>
+    <table border="2px"; style="background-color: chartreuse; width: 100px; height: 100px;" >
+        <caption>ZAGOLOVOK</caption>
+        <tr> <!--tr строка-->
+        <th>1column</th> <!--th заголовки колонок-->
+        <th>2column</th>
+        <th>3column</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        </tr>
+        <tr>
+            <td>12</td><!--td ячейка с содержимым-->
+            <td>23</td>
+            <td>34</td>
+            <td colspan="3"></td>
+     
+        </tr>
+        <tr>
+            <td>45</td>
+            <td colspan="2"; rowspan="2">56</td>
+            <td colspan="3">colspan3</td>
+            
+          
+        </tr>
+        <td>121</td>
+        <td>123</td>
+        <td>234</td>
+        <td></td>
+            <td></td>
+            <td rowspan="2">rowspan2</td>
+    </table>
+
+    <table border="1px" style="margin-left: 40%;">
+        <tr>
+            <th rowspan="2">
+                First
+            </th>
+            <th colspan="2">
+                Second
+            </th>
+
+        </tr>
+
+        <tr>
+            
+            </th>
+            <td>Third</td>
+            <td>Fourth</td>
+        
+
+        </tr>
+    </table>
 </body>
 </html>
